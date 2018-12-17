@@ -7,6 +7,7 @@ This tool can be used to track the overall energy consumption for a given time i
 *Ensure you have Python 3 installed*
 - Navigate to folder location using terminal
 - Launch python
+
 ```sh
 $ cd kplc
 $ python
@@ -24,6 +25,7 @@ dec= kplc.EnergyUsage(0,"20181201")
 
 ### Adding tokens
 - Use the created instance and add_tokens method to add units bought including their price
+
 ```python
 dec.add_tokens(6.6, 100)
 dec.add_tokens(21, 300)
@@ -31,6 +33,7 @@ dec.add_tokens(21, 300)
 
 ### Getting the average daily usage
 - Use the monthly_usage to get the average daily consumption
+
 ```python
 dec.monthly_usage("20181230",1)
 ```
