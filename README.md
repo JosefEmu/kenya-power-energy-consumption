@@ -1,5 +1,4 @@
 # Kenya Power | Energy Usage Tool
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 This tool can be used to track the overall energy consumption for a given time interval.
 
